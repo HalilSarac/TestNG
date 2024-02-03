@@ -9,7 +9,7 @@ import utilities.TestBase;
 
 public class C01_PozitifLoginTesti extends TestBase {
 
-    @Test
+    @Test(groups = {"smoke","e2e","regression"})
     public void pozitifLoginTesti(){
         //1- https://www.testotomasyonu.com/ anasayfasina gidin
         driver.get("https://www.testotomasyonu.com/");

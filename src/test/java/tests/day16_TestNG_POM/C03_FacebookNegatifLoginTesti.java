@@ -8,7 +8,7 @@ import utilities.Driver;
 
 public class C03_FacebookNegatifLoginTesti {
 
-    @Test
+    @Test(groups = {"smoke","e2e"})
     public void facebookNegatifLoginTesti(){
 
         //1 - https://www.facebook.com/ adresine gidin

@@ -9,7 +9,7 @@ import utilities.ReusableMethods;
 
 public class C02_PAgeClassKullanimi {
 
-    @Test
+    @Test(groups = {"smoke","regression"})
     public void aramaTesti(){
 
         //1- testotomasyonu anasayfaya gidin
