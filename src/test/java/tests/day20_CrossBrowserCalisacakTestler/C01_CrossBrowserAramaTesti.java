@@ -24,6 +24,7 @@ public class C01_CrossBrowserAramaTesti extends TestBaseCross {
         WebElement aramaSonucElementi = driver.findElement(By.xpath("//*[@*='product-count-text']"));
 
         String unexpectedSonucYazisi = "0 Products Found";
+
         String actualSonucYazisi = aramaSonucElementi.getText();
 
         Assert.assertNotEquals(actualSonucYazisi,unexpectedSonucYazisi);
