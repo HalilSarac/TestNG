@@ -14,6 +14,7 @@ public class FacebookPage {
     @FindBy(xpath = "//button[@data-cookiebanner='accept_button']")
     public WebElement cookiesKabulButonu;
 
+
     @FindBy(xpath = "//input[@id='email']")
     public WebElement emailKutusu;
 
